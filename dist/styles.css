@@ -1,0 +1,40 @@
+#token-counter-overlay {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99999;
+  background: #343541; /* ChatGPT dark bg */
+  color: #d1d5db;      /* Light grey text */
+  border-radius: 12px;
+  padding: 8px 12px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  cursor: move;
+  user-select: none;
+  min-width: 160px;
+}
+
+#token-counter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+#toggle-button {
+  background: transparent;
+  border: none;
+  color: #d1d5db;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#token-counter-body {
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+#token-counter-body div {
+  margin-bottom: 4px;
+}
